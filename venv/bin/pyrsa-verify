@@ -1,0 +1,6 @@
+#!/home/piyash/Desktop/task2/automotive-lubricants/venv/bin/python3
+import sys
+from rsa.cli import verify
+if __name__ == '__main__':
+    sys.argv[0] = sys.argv[0].removesuffix('.exe')
+    sys.exit(verify())
